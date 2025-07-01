@@ -2,22 +2,9 @@ package Daily;
 
 public class p3300_PossibleStringCount {
     public static void main(String[] args) {
-        // Example 1
-        String word1 = "abbcccc";
-        System.out.println("Input: \"" + word1 + "\"");
-        System.out.println("Output: " + possibleStringCount(word1)); // Expected: 5
-        System.out.println("--------------------");
-
-        // Example 2
-        String word2 = "abcd";
-        System.out.println("Input: \"" + word2 + "\"");
-        System.out.println("Output: " + possibleStringCount(word2)); // Expected: 1
-        System.out.println("--------------------");
-
-        // Example 3
-        String word3 = "aaaa";
-        System.out.println("Input: \"" + word3 + "\"");
-        System.out.println("Output: " + possibleStringCount(word3)); // Expected: 4
+        System.out.println(possibleStringCount("abbcccc")); // 5
+        System.out.println(possibleStringCount("abcd")); // 1
+        System.out.println(possibleStringCount("aaaa")); // 4
     }
 
     public static int possibleStringCount(String word) {
